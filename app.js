@@ -126,3 +126,16 @@ currentProductSizes.forEach((size, index) => {
 
 const productButton = document.querySelector(".productButton");
 const close = document.querySelector(".close");
+// Chuyển trang
+function redirectToJordan() {
+  window.location.href = 'loadingjordan.html';
+}
+function redirectToService() {
+  window.location.href = 'loadingservice.html';
+}
+function redirectToContact() {
+  window.location.href = 'loadingcontact.html';
+}
+function redirectToAirforce() {
+  window.location.href = 'loadingtrangchu.html';
+}

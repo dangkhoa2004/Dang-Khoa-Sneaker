@@ -1,0 +1,211 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Đăng Khoa Sneaker</title>
+    <link rel="icon" href="img/avt.jpg" type="image/x-icon">
+</head>
+    <style>
+        /*NAVIGATION*/
+        .navBottom a {
+            text-decoration: none;
+            color: #fff; 
+            padding: 6px 15px;
+            border-radius: 20px;
+            margin: 0 10px;
+            font-weight: 600;     
+        }
+        .navBottom a:hover,
+        .navBottom a.active {
+            background: #fff;
+            color: #111;
+        }
+        .header {
+        width: 100%;
+        height: 700px;
+        background: url("img/background3.png");
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+        }
+    </style>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+                <h1>Đăng Khoa Sneaker</h1>
+            </div>
+            <nav class="navBottom">
+                <a href="#" onclick="redirectToAirforce()">AIR FORCE</a>
+                <a href="#" onclick="redirectToJordan()">JORDAN</a>
+                <a href="#" onclick="redirectToService()">DỊCH VỤ</a>
+                <a href="#" class="active"  onclick="redirectToContact()">LIÊN HỆ</a>
+            </nav>
+    </nav>
+    <div class="header">
+                <h1 class="headerTitle">Air Force</br> New</br> Season</h1>
+                <a href="#product">
+                    <h1 class="viewMore">Xem thêm</h1>
+                </a>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Hỗ trợ khách hàng vận chuyển giày khắp các tỉnh thành !</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="img/return.png" alt="">
+            <span class="featureTitle">7 DAYS RETURN</span>
+            <span class="featureDesc">Khách hàng được hoàn hàng trong vòng 7 ngày với tình trạng đơn hàng ( không nhận đơn )</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="img/gift.png" alt="">
+            <span class="featureTitle">VOUCHER</span>
+            <span class="featureDesc">Mua các sản phẩm sẽ có cơ hội nhận được các voucher giảm giá %</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="img/contact.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Luôn giải đáp mọi thắc mắc và cung cấp thông tin khách hàng cần thiết</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <h1>Nike Air Force</h1>
+        <div class="image-container">
+          <div class="image-box">
+            <img src="img/gallery1.jpg" alt="Image 1">
+          </div>
+          <div class="image-box">
+            <img src="img/gallery2.jpg" alt="Image 2">
+          </div>
+          <div class="image-box">
+            <img src="img/gallery3.jpg" alt="Image 3">
+          </div>
+          <div class="image-box">
+            <img src="img/gallery1.jpg" alt="Image 1">
+          </div>
+          <div class="image-box">
+            <img src="img/gallery2.jpg" alt="Image 2">
+          </div>
+          <div class="image-box">
+            <img src="img/gallery3.jpg" alt="Image 3">
+          </div>
+          <div class="image-box">
+            <img src="img/gallery1.jpg" alt="Image 1">
+          </div>
+          <div class="image-box">
+            <img src="img/gallery2.jpg" alt="Image 2">
+          </div>
+          <div class="image-box">
+            <img src="img/gallery3.jpg" alt="Image 2">
+          </div>
+        </div>
+      </div>
+      
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="img/gallery1.jpg"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="img/gallery2.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="img/gallery3.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="img/noel.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">SỰ XUẤT HIỆN CỦA MÙA ĐÔNG</h3><i class="fa-solid fa-tree"></i>
+            <h1 class="nsTitle">BỘ SƯU TẬP MỚI</h1>
+            <a href="#nav">
+                <button class="nsButton">CHỌN MẪU GIÀY</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="img/noel 2.jpg"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">CHÚNG TÔI</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">LIÊN KẾT</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">SẢN PHẨM</h1>
+                <ul class="fList">
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Crater</li>
+                    <li class="fListItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Nhận thông tin ưu đãi ở đây !</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Đăng Ký</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">THEO DÕI SHOP</h1>
+                <div class="fIcons">
+                    <a href="https://www.facebook.com/dangkh0a2004" target="_blank">
+                        <img src="img/facebook.png" alt="" class="fIcon">
+                    </a>
+                    
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="img/twitter.png" alt="" class="fIcon">
+                    </a>
+                    
+                    <a href="https://www.instagram.com/dangkh0a2004/" target="_blank">
+                        <img src="img/instagram.png" alt="" class="fIcon">
+                    </a>
+                    
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <img src="img/whatsapp.png" alt="" class="fIcon">
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <p class="copyright">@Dang Khoa Sneaker 2023 / Store Sneaker VietNam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

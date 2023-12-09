@@ -30,13 +30,6 @@ nav {
   color: #fff;
   font-weight: 400;
 }
-
-.header {
-  width: 100%;
-  height: 700px;
-  background: url("img/background.webp");
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-}
 .headerTitle {
   position: absolute;
   top: 50%;
