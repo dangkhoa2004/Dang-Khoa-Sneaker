@@ -6,6 +6,7 @@ body {
   font-family: 'Fira Code', monospace;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 nav {
   background-color: #111;
@@ -239,59 +240,60 @@ footer {
   font-size: 18px;
 }
 
-@media screen and (max-width:480px) {
-  nav{
+@media screen and (max-width: 480px) {
+  nav {
     padding: 20px;
   }
 
-  .search{
+  .header {
+    background-size: cover;
+  }
+
+  .search {
     display: none;
   }
 
-  .navBottom{
+  .navBottom {
     flex-wrap: wrap;
   }
 
-  .menuItem{
-    margin: 20px;
+  .menuItem {
+    margin: 10px; /* Giảm khoảng cách giữa các menuItem */
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px; /* Giảm kích thước font */
   }
-  .header{
-    clip-path: none;
-  }
-  .headerTitle{
-    display: none;
-  }
-  .features{
-    flex-direction: column;
-  }
-  .gallery{
+
+  .headerTitle {
     display: none;
   }
 
-  .newSeason{
+  .features {
     flex-direction: column;
   }
 
-  .nsItem:nth-child(2){
-    padding: 50px;
+  .gallery {
+    display: none;
   }
 
-  footer{
+  .newSeason {
+    flex-direction: column;
+  }
+
+  .nsItem:nth-child(2) {
+    padding: 20px; /* Giảm khoảng cách giữa các nsItem */
+  }
+
+  footer {
     flex-direction: column;
     align-items: center;
   }
 
-  .footerLeft{
-    padding: 20px;
-    width: 90%;
+  .footerLeft, .footerRight {
+    padding: 10px; /* Giảm khoảng cách giữa các phần tử trong footer */
+    width: 100%; /* Đảm bảo phần tử chiếm toàn bộ chiều rộng */
   }
 
-  .footerRight{
-    padding: 20px;
-    width: 90%;
-    align-items: center;
+  .footerRight {
     background-color: whitesmoke;
   }
 }
