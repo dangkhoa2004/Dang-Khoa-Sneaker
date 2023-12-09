@@ -244,15 +244,9 @@ footer {
   nav {
     padding: 20px;
   }
-
   .header {
     background-size: cover;
   }
-
-  .search {
-    display: none;
-  }
-
   .navBottom {
     flex-wrap: wrap;
   }
